@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Autocomplete component renders list items using renderItem prop: 
+      Array [
+        'black', 'white', 'red', 'yellow'
+      ]
+     1`] = `
+Array [
+  "",
+  "",
+  "",
+  "",
+]
+`;
+
+exports[`Autocomplete component should match snapshot 1`] = `
+<div>
+  <div
+    class="autocomplete-wrap"
+    data-testid="wrapper"
+  >
+    <input
+      data-testid="input"
+    />
+    <div
+      data-testid="error"
+    />
+  </div>
+</div>
+`;

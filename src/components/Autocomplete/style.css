@@ -1,0 +1,26 @@
+input {
+  width: 120px;
+}
+
+.autocomplete-wrap {
+  width: 120px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.listitem {
+  padding: 4px;
+  margin: 0px;
+  background-color: #f0f0f0; /* Default background color */
+  cursor: pointer;
+}
+
+.listitem:hover {
+  background-color: #c0c0c0; 
+}
